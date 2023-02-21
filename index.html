@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Calculator</title>
+    <link rel="icon" type="image/png" sizes="2000x1500" href="assets/img/gc-high-resolution-color-logo.png">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/ionicons.min.css">
+    <link rel="stylesheet" href="assets/css/aos.min.css">
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/Navbar-Right-Links-icons.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-dark navbar-expand-md sticky-top bg-dark py-3" data-aos="zoom-in" data-aos-duration="1800" data-aos-once="true">
+        <div class="container"><a class="navbar-brand d-flex align-items-center" href="https://gerardocolegio.dev/"><img data-bss-hover-animate="pulse" src="assets/img/gerardo-colegio-low-resolution-logo-white-on-transparent-background.png" style="width: 134px;margin: 0px;"></a><button data-bs-toggle="collapse" data-bs-target="#navcol-5" class="navbar-toggler"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-5">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" data-bss-hover-animate="pulse" href="/Gerardo_Colegio_Profile.pdf" style="border-bottom-style: ridge;font-weight: bold;" download="">Resume</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="https://gerardocolegio.dev/#stack" style="border-bottom-style: ridge;font-style: italic;" data-bs-target="#my-tech-stack">Tech Stack</a></li>
+                    <li class="nav-item"><a class="nav-link" data-bss-hover-animate="pulse" href="https://gerardocolegio.dev/#projects" style="border-bottom-style: ridge;font-style: italic;">Projects</a></li>
+                </ul><a class="btn btn-primary ms-md-2" role="button" data-bss-hover-animate="rubberBand" href="https://github.com/BenjiCollege">GitHub</a>
+            </div>
+        </div>
+    </nav>
+    <main style="padding: 15px;height: 149.8px;">
+        <h1>JavaScript Calculator</h1>
+        <p class="warning">Don't divide by zero</p>
+    </main>
+    <div id="calculator" class="calculator"><button id="clear" class="clear">C</button>
+        <div id="viewer" class="viewer"><span>0</span></div><button class="num" value="7">7</button><button class="num" value="8">8</button><button class="num" value="9">9</button><button data-ops="plus" class="ops">+</button><button class="num" value="4">4</button><button class="num" value="5">5</button><button class="num" value="6">6</button><button data-ops="minus" class="ops">-</button><button class="num" value="1">1</button><button class="num" value="2">2</button><button class="num" value="3">3</button><button data-ops="times" class="ops">*</button><button class="num" value="0">0</button><button class="num" value=".">.</button><button id="equals" class="equals" data-result="">=</button><button data-ops="divided by" class="ops">/</button>
+    </div><button id="reset" class="reset">Reset Universe?</button>
+    <footer class="py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start d-md-flex justify-content-md-start align-items-md-center py-2">
+                    <div>
+                        <p class="fs-5 fw-bold mb-0">Crafted by Gerardo Colegio</p>
+                        <p class="mb-0">Made with HTML, CSS, and JS</p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-flex justify-content-center align-items-center justify-content-md-end py-2">
+                    <ul class="list-inline fs-1 mb-0">
+                        <li class="list-inline-item list-inline-item"><a href="https://twitter.com/BenjiColegio"><i class="fab fa-twitter fs-1 me-2" data-bss-hover-animate="tada"></a></i></li>
+                        <li class="list-inline-item list-inline-item"><a href="https://www.instagram.com/benji.college/"><i class="fab fa-instagram fs-1 me-2" data-bss-hover-animate="rubberBand"></a></i></li>
+                        <li class="list-inline-item list-inline-item"><a href="mailto:bcolegio12@gmail.com"><i class="icon ion-email fs-1 me-2"></a></i></li>
+                        <li class="list-inline-item list-inline-item"><a href="https://www.linkedin.com/in/gerardo-colegio/"><i class="fab fa-linkedin-in fs-1 me-2" data-bss-hover-animate="wobble" ></a></i></li>
+                        <li class="list-inline-item list-inline-item"><a href="https://github.com/BenjiCollege"><i class="fab fa-github fs-1 me-2" data-bss-hover-animate="wobble" ></a></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/aos.min.js"></script>
+    <script src="assets/js/bs-init.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
